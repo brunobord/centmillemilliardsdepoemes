@@ -6,6 +6,7 @@ poèmes".
 This program simply picks a verse out of a list of 10 verses and composes a
 fourteen-verse poem.
 """
+from __future__ import print_function
 import random
 
 VERSES = (
@@ -63,7 +64,7 @@ VERSES = (
     "Et pourtant c'était lui le frère de feintise",
     "L'un et l'autre a raison non la foule insoumise",
     "Du voisin le Papou suçe l'apophyse"),
-    
+
     ("Les gauchos dans la plaine agitaient leurs drapeaux",
     "On prépare la route aux pensers sépulcraux",
     "Du client londonien où s'ébattent les beaux",
@@ -166,4 +167,4 @@ VERSES = (
 
 
 for verse_list in VERSES:
-    print random.choice(verse_list)
+    print(random.choice(verse_list))
