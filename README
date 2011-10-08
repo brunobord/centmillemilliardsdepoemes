@@ -1,0 +1,24 @@
+==============================
+Cent Mille Milliards de Poèmes
+==============================
+
+This is my personal implementation of Raymon Queneau "Cent mille milliards de
+poèmes" (a hundred thousand billions of poems).
+
+What Queneau did was to compose first 10 poems of 14 verses (sonnets) with
+equivalent rhymes. Then he "cut" them verse by verse and thus allow people to
+compose other poems, by combining verses from the different poems. Since there
+are 10 poems of 14 verses each, this means there are 10^14 possible
+combinations, hence the title: "Cent mille milliards de poèmes".
+
+This tiny program simply generates a random version of one of these poems. Just
+run::
+
+    python queneau.py
+
+and you'll have one.
+
+More information:
+
+* http://en.wikipedia.org/wiki/Hundred_Thousand_Billion_Poems
+* http://en.wikipedia.org/wiki/Raymond_Queneau
